@@ -43,7 +43,7 @@ class IdTyposAnalyzer(Analyzer):
         "n_candidates": 3,
         "confidence_threshold": 0.1,
         "overall_size_limit": 5 << 20,  # 5 MB
-        "model": None,
+        "model": "/models/corrector.asdf",
         "index_column": "index",
     }
 
